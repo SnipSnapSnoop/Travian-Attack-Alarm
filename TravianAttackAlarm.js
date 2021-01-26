@@ -10,6 +10,7 @@
 // @grant GM_getValue
 // @grant GM_setValue
 
+// @version        1.00
 // ==/UserScript==
 var homePageURL = 'https://github.com/SnipSnapSnoop/Travian-Attack-Alarm';
 var attackClassesList = ["att1", "att3", "attack", " attack", " attack active"];
