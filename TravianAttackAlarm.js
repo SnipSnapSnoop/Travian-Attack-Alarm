@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name        Travian Attack Alarm T4.4
+// @namespace   https://github.com/SnipSnapSnoop/Travian-Attack-Alarm
 // @include 	*://*.travian.*/hero/auction*
 // @include 	*://*.travian.*/dorf1.php*
 // @exclude 	*.css
@@ -10,7 +11,7 @@
 // @grant GM_setValue
 
 // ==/UserScript==
-
+var homePageURL = 'https://github.com/SnipSnapSnoop/Travian-Attack-Alarm';
 var attackClassesList = ["att1", "att3", "attack", " attack", " attack active"];
 
 var activateStatus = loadValue("activateStatus", 1);
